@@ -15,7 +15,7 @@ import { UserListingComponent } from './user-listing/user-listing.component'
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
+    
     HomeComponent,
     UserListingComponent,
   ],

@@ -1,3 +1,23 @@
 {
-  "User": [{}]
+  "User": [
+    {},
+    {
+      "id": "dsfsdsd",
+      "name": "sddfsf",
+      "password": "Bezcode15812@",
+      "email": "sdfsd@gmail",
+      "gender": "Female",
+      "role": "",
+      "isActive": false
+    },
+    {
+      "id": "Admin",
+      "name": "Admin user",
+      "password": "@Admin123",
+      "email": "admin@admin.com",
+      "gender": "Male",
+      "role": "",
+      "isActive": true
+    }
+  ]
 }

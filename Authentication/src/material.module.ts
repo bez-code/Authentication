@@ -12,6 +12,7 @@ import { RegisterComponent } from './app/register/register.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
+import { LoginComponent } from './app/login/login.component';
 
 @NgModule({
   imports: [
@@ -30,7 +31,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatButtonModule
   ],
   declarations: [
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent,
   ]
 })
 
