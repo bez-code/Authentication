@@ -32,13 +32,12 @@ import { UserListingComponent } from './user-listing/user-listing.component';
     RegisterComponent,
     LoginComponent,
     UserListingComponent,
-    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule,
     HttpClientModule,
     ToastrModule.forRoot(),
     MatInputModule,

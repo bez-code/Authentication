@@ -1,14 +1,13 @@
 {
   "User": [
-
     {
       "id": "dsfsdsd",
       "name": "sddfsf",
       "password": "Bezcode15812@",
       "email": "sdfsd@gmail",
       "gender": "Female",
-      "role": "",
-      "isActive": false
+      "role": "staff",
+      "isActive": true
     },
     {
       "id": "Admin",
@@ -25,19 +24,19 @@
       "password": "@Admin123",
       "email": "admin@admin.com",
       "gender": "Male",
-      "role": "",
-      "isActive": true
+      "role": "staff",
+      "isActive": false
     },
-     {
+    {
       "id": "test 1",
       "name": "Admin user",
       "password": "@Admin123",
       "email": "admin@admin.com",
       "gender": "Male",
-      "role": "",
+      "role": "staff",
       "isActive": true
     },
-     {
+    {
       "id": "test 3",
       "name": "Admin user",
       "password": "@Admin123",
@@ -46,7 +45,7 @@
       "role": "",
       "isActive": true
     },
-     {
+    {
       "id": "test 4",
       "name": "Admin user",
       "password": "@Admin123",
@@ -56,9 +55,7 @@
       "isActive": false
     }
   ],
-
   "Role": [
-
     {
       "code": "staff",
       "name": "Staff"

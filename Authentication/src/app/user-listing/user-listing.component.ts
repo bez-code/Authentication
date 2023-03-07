@@ -35,17 +35,19 @@ export class UserListingComponent {
   }
 
   updateUser(code: any) {
-    this.dialog.open(UpdatePopupComponent, {
+    const popup = this.dialog.open(UpdatePopupComponent, {
       enterAnimationDuration: '1000ms',
       exitAnimationDuration: '500ms',
       width: '50%',
       data: {
-        usercode : code
+        usercode: code
       }
+    })
+    popup.afterClosed().subscribe(res => {
+      this.loadUser();
     })
   }
 
   openDialog() {
-
   }
 }
