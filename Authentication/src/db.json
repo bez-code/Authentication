@@ -34,7 +34,7 @@
       "email": "admin@admin.com",
       "gender": "Male",
       "role": "staff",
-      "isActive": true
+      "isActive": false
     },
     {
       "id": "test 3",

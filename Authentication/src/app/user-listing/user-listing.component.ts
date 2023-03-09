@@ -16,7 +16,7 @@ export class UserListingComponent {
   displayedColumns: string[] = ['username', 'name', 'email', 'role', 'status', 'action'];
   dataSource: any;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
-  @ViewChild(MatSort) sort!: MatSort;
+  @ViewChild(MatSort , { static: true } ) sort!: MatSort;
 
 
   constructor(private service: AuthService, private dialog: MatDialog) {
@@ -31,6 +31,7 @@ export class UserListingComponent {
       this.dataSource = new MatTableDataSource(this.userList);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
+
     });
   }
 

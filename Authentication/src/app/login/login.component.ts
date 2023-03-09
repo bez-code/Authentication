@@ -31,12 +31,7 @@ export class LoginComponent {
 
   proccedLogin() {
     if (this.loginForm.valid) {
-      //   this.service.proceedRegister(this.loginForm.value).subscribe(res => {
-      //     this.toastr.success('Please contact admin for enable access','Registered Successfully');
-      //     this.router.navigate(['login'])
-      //   })
-      // } else {
-      //   this.toastr.warning('Please enter valid data')
+
       this.service.getByCode(this.loginForm.value.username).subscribe(res => {
         this.userData = res;
         console.log(this.userData);
@@ -50,9 +45,9 @@ export class LoginComponent {
           }
         } else {
           this.toastr.error('Wrong user name or password')
+
         }
       })
-
     }
   }
 }
