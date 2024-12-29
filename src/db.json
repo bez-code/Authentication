@@ -53,16 +53,27 @@
       "gender": "Male",
       "role": "",
       "isActive": false
+    },
+    {
+      "id": "Bezcode",
+      "name": "Behzad",
+      "password": "Behzad123@",
+      "email": "Bezcode.ashrafi@gmail.com",
+      "gender": "Male",
+      "role": "",
+      "isActive": false
     }
   ],
   "Role": [
     {
       "code": "staff",
-      "name": "Staff"
+      "name": "Staff",
+      "id": "ecd7"
     },
     {
       "code": "quality",
-      "name": "QA"
+      "name": "QA",
+      "id": "0287"
     }
   ]
 }
